@@ -134,11 +134,16 @@ a.meanmenu-reveal{display:none}
 }
 .mean-container .mean-bar::before {
     color: #fff;
-    content: "XChain";
+    content: "";
     font-size: 22px;
     font-weight: 600;
     left: 10px;
     position: absolute;
-    top: 18px;
+    top: 5px;
     font-family: 'Montserrat';
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
 }
